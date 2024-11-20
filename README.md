@@ -19,7 +19,7 @@ This Python script splits a large CSV file into smaller files, each containing a
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/csv-splitter.git
+   git clone https://github.com/Mudassirkz/csv-splitter.git
    cd csv-splitter
 
 2. Place your large CSV file in the project directory.
@@ -29,8 +29,11 @@ This Python script splits a large CSV file into smaller files, each containing a
  . records_per_file - The number of records you want in each split file.
 
 4. Run the script:
+windows:
 python split_csv.py
+mac:
+python3 split_csv.py
 
-Check the output files in the same directory. They will be named products sheet 1.csv, products sheet 2.csv, and so on.
+Check the output files in the same directory. They will be named products_sheet_1.csv, products_sheet_2.csv, and so on.
 
 Feel free to open issues or submit pull requests if you have ideas for improvements or new features.
