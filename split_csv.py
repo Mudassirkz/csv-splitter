@@ -1,6 +1,6 @@
 import csv
 
-# Input and output file details
+# Input and output file details (naming)
 input_file = "products.csv"  # Replace with your CSV file's path
 output_file_prefix = "products_sheet"  # Prefix for output files
 records_per_file = 2000  # Number of records per file
