@@ -3,7 +3,7 @@ import csv
 # Input and output file details (naming)
 input_file = "products.csv"  # Replace with your CSV file's path
 output_file_prefix = "products_sheet"  # Prefix for output files
-records_per_file = 2000  # Number of records per file
+records_per_file = 5  # Number of records per file
 
 def split_csv(input_file, output_file_prefix, records_per_file):
     with open(input_file, 'r') as infile:
